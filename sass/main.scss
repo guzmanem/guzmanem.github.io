@@ -3,6 +3,11 @@
 
 @import "base/base";
 
+@import "components/about";
+@import "components/education";
 
 @import "layout/grid";
 @import "layout/sidebar";
+@import "layout/content_area";
+
+@import "pages/profile";

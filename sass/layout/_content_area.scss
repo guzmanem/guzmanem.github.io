@@ -1,0 +1,28 @@
+.content-area {
+    display: grid;
+    padding: 0 4% 0 4%;
+    margin-left: 17.5%;
+    overflow-x: hidden;
+}
+
+.views > .view:target ~ .view:last-child, .views > .view {
+    opacity:0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+  
+.views > :last-child, .views > .view{
+    transition: all .5s ease;
+
+    &:target {
+        opacity: 1;
+        height: auto;
+    } 
+}
+
+section {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}

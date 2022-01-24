@@ -1,0 +1,51 @@
+.about{
+    &__full-name {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-size: 5rem;
+    }
+
+    &__first-name {
+        color: $color-secondary-dark;
+    }
+
+    &__last-name {
+        color: $color-primary;
+    }
+
+    &__degrees {
+        margin: 3rem 0 3rem;
+    }
+
+    &__degree {
+        font-size: 2rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    &__resume {
+        margin: 2rem 0 3rem 0;
+        font-size: 1.6rem;
+    }
+
+    &__contact {
+        margin: 1rem 0 1rem 0;
+    }
+
+    &__contact-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__contact-socialnetwork {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
+
+    &__contact-social {
+        &:not(:first-child) {
+            margin-left: 1.5rem;
+        }
+    }
+
+}

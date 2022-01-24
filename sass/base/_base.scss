@@ -10,6 +10,8 @@
 html {
     // This defines what 1rem is
     font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+    color: $color-primary;
 
     @include respond(tab-land) {
         font-size: 56.25%;
